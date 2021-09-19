@@ -9,5 +9,9 @@ const countTypesInArray = (arr) => {
   }
   return counters;
 };
+// if (typeof(type) === 'number') countTypesInArray.number++;
+  //else if (typeof(type) === 'string') countTypesInArray.string++;
+  //else if (typeof(type) === 'boolean') countTypesInArray.boolean++;
+
 
 module.exports = { countTypesInArray };
